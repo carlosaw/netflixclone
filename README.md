@@ -1,7 +1,10 @@
+# React JS
 # Lives
 ## Clone do Netflix
 
-# React JS
+# Instalar dependências
+## npm install
+
 ## Rodar projeto
 ## npm start
 # Getting Started with Create React App
