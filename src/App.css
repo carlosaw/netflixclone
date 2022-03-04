@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .lists {
-  margin-top: -150px;
+  margin-top: -295px;
 }
 footer {
   margin: 50px 0;
@@ -29,4 +29,12 @@ footer span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width:760px) {
+
+  footer {
+    margin-top: -16px;
+    margin-bottom: 35px;
+  }
 }

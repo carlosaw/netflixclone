@@ -20,6 +20,7 @@
 .featured--name {
   font-size: 60px;
   font-weight: bold;
+  margin-top: -190px;
 }
 .featured--info {
   font-size: 18px;
@@ -49,7 +50,7 @@
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
-  padding: 12px 25px;
+  padding: 12px 20px;
   border-radius: 5px;
   text-decoration: none;
   margin-right: 30px;
@@ -63,10 +64,12 @@
 .featured--watchbutton {
   background-color: #FFF;
   color: #000;
+  border: 2px solid #333;
 }
 .featured--mylistbutton {
   background-color: #333;
   color: #FFF;
+  border: 2px solid rgb(63, 62, 62);
 }
 .featured--genres {
   margin-top: 15px;
@@ -80,14 +83,32 @@
   }
   .featured--name {
     font-size: 40px;
-  }
-  .featured--watchbutton, .featured--mylistbutton {
-    margin-right: 10px;
+    margin-top: 0px;
   }
   .featured--info {
     font-size: 16px;
   }
   .featured--horizontal {
     display: block;
+  }
+  .featured--description {
+    font-size: 14px;
+    max-width: 100%;
+    margin-right: 30px;
+  }
+  
+  .featured--buttons {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  .featured--watchbutton,
+  .featured--mylistbutton {
+    display: inline-block;
+    font-size: 16px;
+    opacity: 1;
+  }
+  .featured--genres {
+    font-size: 16px;
   }
 }
